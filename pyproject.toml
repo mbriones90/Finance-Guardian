@@ -1,0 +1,11 @@
+[project]
+name = "finanzas-app"
+version = "0.1.0"
+description = "App de finanzas personales - Dimensiones del Guardián (RPG medieval)"
+requires-python = ">=3.11"
+dependencies = [
+    "flet>=0.20.0,<1.0.0",
+]
+
+[project.scripts]
+finanzas = "src.main:main"

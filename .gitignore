@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# --- Datos locales del usuario (finanzas reales) ---
+data/*.db
+data/*.db-journal
+data/app.log
+exports/*.csv
+
+# --- Temporales del agente de desarrollo ---
+_chk.py
+_dbg.py
+
+# --- SO / editor ---
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
